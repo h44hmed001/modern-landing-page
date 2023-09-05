@@ -25,9 +25,9 @@ const Blog = () => {
         We are blogging about it.
       </h1>
       <div className="lg:flex gap-4  items-center ">
-      <Article imageSrc="/blog5.png" date="Sep 26, 2021" heading="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+      <Article imageSrc="/blog5.png" date="Sep 26, 2021" heading="GPT-3 and Open  AI is the future. Let us explore how it is?" />
       <div className="mt-20 lg:gap-4 gap-6 flex flex-col  lg:grid lg:grid-cols-2 ">
-        {images.map((image)=><Article date="Sep 26, 2021" imageSrc={image.src} heading="GPT-3 and Open  AI is the future. Let us exlore how it is?" />)}
+        {images.map((image)=><Article date="Sep 26, 2021" imageSrc={image.src} heading="GPT-3 and Open  AI is the future. Let us explore how it is?" />)}
       </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ const Feature = ({className,headingClass,heading,paragraph}) => {
         
         <div className={className}>
         {heading&&<h1 className={`text-white ${headingClass} max-w-[180px] flex-[1] font-semibold text-[24px]`} >{heading}</h1>}
-        {paragraph&&<p className='text-[#81AFDD] break-all max-w-[731px] flex-[2]'>{paragraph}</p>}
+        {paragraph&&<p className='text-[#81AFDD] whitespace-break-spaces max-w-[731px] flex-[2]'>{paragraph}</p>}
         </div>
     </div>
   )
